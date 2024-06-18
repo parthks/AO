@@ -67,7 +67,7 @@ export default function Add() {
       <>
         <Header />
         <section className="w-full py-12 md:py-16 lg:py-20">
-          <div className="container px-4 md:px-6">
+          <div className="m-auto container px-4 md:px-6">
             <div className="mx-auto max-w-xl space-y-4 text-center">
               <Link to="/map" className="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900">
                 <ArrowLeftIcon className="w-4 h-4" />

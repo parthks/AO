@@ -97,9 +97,7 @@ const AddIssueCTA = () => {
   return (
     <div className="w-full bg-gray-100 py-8 mb-4">
       <div className="container px-4 md:px-6 mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-between md:gap-8 gap-4">
-        <p className="text-gray-500">
-          Improve your community by adding any issues you notice with public infrastructure, such as potholes, broken streetlights, or sidewalk trash.
-        </p>
+        <p className="text-gray-500">Improve your community by adding any issues you notice with public infrastructure, such as potholes, broken sidewalks, or trash.</p>
         <Link
           to="/add"
           className="whitespace-nowrap inline-flex flex-2 w-48 h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
