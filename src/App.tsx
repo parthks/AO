@@ -15,7 +15,7 @@ export default function Component() {
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 mt-8 lg:px-6 h-14 flex justify-center items-center">
         <Link to="/" className="flex items-center justify-center">
-          <Image style={{ height: "80px" }} src={logo} alt="Logo" />
+          <Image className="h-12 sm:h-14 md:h-16 lg:h-20" src={logo} alt="Logo" />
           <span className="sr-only">Public Infrastructure App</span>
         </Link>
         {/* <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -32,7 +32,7 @@ export default function Component() {
       </header>
       <main className="flex-1">
         <section className="w-full py-8 md:py-24 lg:py-24">
-          <div className="container px-4 md:px-6 grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="m-auto container px-4 md:px-6 grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Crowdsource Public Infrastructure Monitoring</h1>

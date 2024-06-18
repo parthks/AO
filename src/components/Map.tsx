@@ -16,7 +16,7 @@ export default function MyMap({
   markers: MarkerData[];
   onMarkerClick: (marker: MarkerData) => void;
 }) {
-  const ZOOM_LEVEL = 9;
+  const ZOOM_LEVEL = 11;
 
   const AllMarkers = markers.map((marker) => {
     const icon =
